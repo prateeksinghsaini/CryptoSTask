@@ -140,7 +140,7 @@ const Hero = ({ scrollProgress = 0 }) => {
                           className={
                             i === 4 || i === 11
                               ? "relative overflow-hidden animate-item bg-white  aspect-square w-[30px] h-full hidden md:block col-span-1"
-                              : `relative overflow-hidden animate-item aspect-square col-span-1 ${isHidden} ${
+                              : `relative overflow-hidden animate-item aspect-square  ${isHidden} ${
                                   isTextBlock
                                     ? "p-6 flex items-center justify-center"
                                     : ""
@@ -153,10 +153,12 @@ const Hero = ({ scrollProgress = 0 }) => {
                             border:
                               i == 0 ||
                               i == 1 ||
-                              i == 5 ||
                               i == 4 ||
+                              i == 5 ||
                               i == 6 ||
-                              i == 11
+                              i == 7 ||
+                              i == 11||
+                              i == 13
                                 ? ""
                                 : `1px solid ${scrollStyles.sectionBgColor}`,
                             opacity: scrollStyles.gridOpacity,
