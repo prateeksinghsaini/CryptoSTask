@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Rigid Square";
-  src: url("./fonts/fonnts.com-Rigid_Square_Regular.otf") format("opentype");
+  src: url("/fonts/fonnts.com-Rigid_Square_Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
